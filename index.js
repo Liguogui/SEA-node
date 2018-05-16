@@ -83,7 +83,10 @@ app.get('/api/getCdInfo', function (req, res) {
 })
 
 // app.use('/api', apiRoutes);
-
+//微信页面不重新排版
+app.get('/MP_verify_wZPqstuSBoRVc0D7.txt',function (req,res) {
+    res.sendFile(__dirname+'/MP_verify_wZPqstuSBoRVc0D7.txt')
+})
 
 app.get('/',function (req,res) {
     res.sendFile(__dirname+'/index.html')
