@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f20124a-ded5-42fa-bb14-19a5738ba314" name="Default" comment="" />
+    <list default="true" id="4f20124a-ded5-42fa-bb14-19a5738ba314" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/app.4d43240d208881469ffc0249d64c1e57.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/0.a2691388707f7238df31.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/0.a2691388707f7238df31.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/1.2e0feba272db5984f94a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/1.2e0feba272db5984f94a.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/2.ac9ad7ad3f998b7c4ed9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/2.ac9ad7ad3f998b7c4ed9.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/3.2eaa1aaeed3b584ed42f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/3.2eaa1aaeed3b584ed42f.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/4.e6196742af34dfbeaf44.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/4.e6196742af34dfbeaf44.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/5.f24bc704805f0a6e6fb1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/5.f24bc704805f0a6e6fb1.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/6.e3fb495ffcbca403d600.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/6.e3fb495ffcbca403d600.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/7.cbf411788bb3ffcfd069.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/7.cbf411788bb3ffcfd069.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/app.17f4e148d2b4a25171ab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/app.17f4e148d2b4a25171ab.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/manifest.9a29538943d72bf6b6c5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/manifest.9a29538943d72bf6b6c5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/vendor.6a8923c78fa5e80e3cdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/vendor.6a8923c78fa5e80e3cdf.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index2.css" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,17 +45,8 @@
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/index2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state>
+              <caret column="504" lean-forward="true" selection-start-column="504" selection-end-column="504" />
             </state>
           </provider>
         </entry>
@@ -35,8 +54,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="316">
+              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -80,7 +99,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1061" />
@@ -158,6 +177,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\nodejs-getting-started\static" />
+      <recent name="E:\nodejs-getting-started\static\css" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -180,15 +205,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526466487334</updated>
-      <workItem from="1526466488790" duration="1383000" />
+      <workItem from="1526466488790" duration="2236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1383000" />
+    <option name="totallyTimeSpent" value="2236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -252,17 +277,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/app.4d43240d208881469ffc0249d64c1e57.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/0.a2691388707f7238df31.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state>
+          <caret column="504" lean-forward="true" selection-start-column="504" selection-end-column="504" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="316">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
         </state>
       </provider>
     </entry>
