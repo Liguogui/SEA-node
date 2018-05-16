@@ -21,20 +21,20 @@ app.get('/static/js/app.73383a5523c3980f283b.js',function (req,res) {
 //api
 // var apiRoutes = express.Router()
 //获取热门歌单
-// app.get('/api/getDiscList',function (req,res) {
-//     var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg';
-//     axios.get(url,{
-//         headers:{
-//             referer:'https://c.y.qq.com/',
-//             host:'c.y.qq.com'
-//         },
-//         params:req.query
-//     }).then((response)=>{
-//         res.json(response.data);
-//     }).catch((e) =>{
-//         console.log(e);
-//     })
-// });
+app.get('/api/getDiscList',function (req,res) {
+    var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg';
+    axios.get(url,{
+        headers:{
+            referer:'https://c.y.qq.com/',
+            host:'c.y.qq.com'
+        },
+        params:req.query
+    }).then((response)=>{
+        res.json(response.data);
+    }).catch((e) =>{
+        console.log(e);
+    })
+});
 //获取歌曲url
 // app.post('/api/getPurlUrl', bodyParser.json(), function (req, res) {
 //     const url = 'https://u.y.qq.com/cgi-bin/musicu.fcg'
