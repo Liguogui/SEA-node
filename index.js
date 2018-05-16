@@ -9,14 +9,14 @@ app.get('/static/css/app.1cfde8937d2164607a8298220f775d88.css',function (req,res
     res.sendFile(__dirname+'/static/css/app.1cfde8937d2164607a8298220f775d88.css')
 })
 //js
-app.get('/static/js/manifest.692e35ed946fc0c69ab6.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/manifest.692e35ed946fc0c69ab6.js')
+app.get('/static/js/manifest.9e6db6b0a5f75c33c534.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/manifest.9e6db6b0a5f75c33c534.js')
 })
 app.get('/static/js/vendor.e45463390e8519f52d89.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/vendor.e45463390e8519f52d89.js')
 })
-app.get('/static/js/app.ecd978da7b547f99dd4f.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/app.ecd978da7b547f99dd4f.js')
+app.get('/static/js/app.95b8645e425e8970c150.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/app.95b8645e425e8970c150.js')
 })
 //api
 // var apiRoutes = express.Router()
@@ -50,52 +50,37 @@ app.post('/api/getPurlUrl', bodyParser.json(), function (req, res) {
         console.log(e)
     })
 })
-// app.get('/api/lyric', function (req, res) {
-//     const url = 'https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg'
-//
-//     axios.get(url, {
-//         headers: {
-//             referer: 'https://c.y.qq.com/',
-//             host: 'c.y.qq.com'
-//         },
-//         params: req.query
-//     }).then((response) => {
-//         let ret = response.data
-//         if (typeof ret === 'string') {
-//             const reg = /^\w+\(({.+})\)$/
-//             const matches = ret.match(reg)
-//             if (matches) {
-//                 ret = matches
-//             }
-//         }
-//         res.json(ret)
-//     }).catch((e) => {
-//         console.log(e)
-//     })
-// })
+//获取歌词
+app.get('/api/lyric', function (req, res) {
+    const url = 'https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg'
+
+    axios.get(url, {
+        headers: {
+            referer: 'https://c.y.qq.com/',
+            host: 'c.y.qq.com'
+        },
+        params: req.query
+    }).then((response) => {
+        res.json(response.data)
+    }).catch((e) => {
+        console.log(e)
+    })
+})
 //获取歌单的对应音乐
-// app.get('/api/getCdInfo', function (req, res) {
-//     const url = 'https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg'
-//     axios.get(url, {
-//         headers: {
-//             referer: 'https://c.y.qq.com/',
-//             host: 'c.y.qq.com'
-//         },
-//         params: req.query
-//     }).then((response) => {
-//         let ret = response.data
-//         if (typeof ret === 'string') {
-//             const reg = /^\w+\(({.+})\)$/
-//             const matches = ret.match(reg)
-//             if (matches) {
-//                 ret = matches
-//             }
-//         }
-//         res.json(ret)
-//     }).catch((e) => {
-//         console.log(e)
-//     })
-// })
+app.get('/api/getCdInfo', function (req, res) {
+    const url = 'https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg'
+    axios.get(url, {
+        headers: {
+            referer: 'https://c.y.qq.com/',
+            host: 'c.y.qq.com'
+        },
+        params: req.query
+    }).then((response) => {
+        res.json(response.data)
+    }).catch((e) => {
+        console.log(e)
+    })
+})
 
 // app.use('/api', apiRoutes);
 

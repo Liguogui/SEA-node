@@ -4,10 +4,10 @@
     <list default="true" id="4f20124a-ded5-42fa-bb14-19a5738ba314" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.73383a5523c3980f283b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.73383a5523c3980f283b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.07f010b62ab8fbf94acc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.07f010b62ab8fbf94acc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.ecd978da7b547f99dd4f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.ecd978da7b547f99dd4f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/manifest.692e35ed946fc0c69ab6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/manifest.692e35ed946fc0c69ab6.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,20 +21,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="495" selection-start-column="495" selection-end-column="495" />
+            <state relative-caret-position="450">
+              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+              <folding>
+                <element signature="e#867#1206#0" />
+                <element signature="e#1286#1664#0" />
+                <element signature="e#1708#2279#0" />
+                <element signature="e#2119#2695#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state>
+              <caret column="539" selection-start-column="539" selection-end-column="539" />
             </state>
           </provider>
         </entry>
@@ -142,24 +148,6 @@
               <item name="nodejs-getting-started" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nodejs-getting-started" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs-getting-started" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs-getting-started" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs-getting-started" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs-getting-started" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs-getting-started" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -207,12 +195,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526466487334</updated>
-      <workItem from="1526466488790" duration="8184000" />
+      <workItem from="1526466488790" duration="9416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8184000" />
+    <option name="totallyTimeSpent" value="9416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -302,14 +290,20 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="495" selection-start-column="495" selection-end-column="495" />
+          <caret column="539" selection-start-column="539" selection-end-column="539" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="450">
           <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="e#867#1206#0" />
+            <element signature="e#1286#1664#0" />
+            <element signature="e#1708#2279#0" />
+            <element signature="e#2119#2695#0" />
+          </folding>
         </state>
       </provider>
     </entry>
