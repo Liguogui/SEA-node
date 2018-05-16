@@ -19,9 +19,9 @@ app.get('/static/js/app.73383a5523c3980f283b.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/app.73383a5523c3980f283b.js')
 })
 //api
-var apiRoutes = express.Router()
+// var apiRoutes = express.Router()
 //获取热门歌单
-apiRoutes.get('/getDiscList',function (req,res) {
+app.get('/api/getDiscList',function (req,res) {
     var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg';
     axios.get(url,{
         headers:{
@@ -36,7 +36,7 @@ apiRoutes.get('/getDiscList',function (req,res) {
     })
 });
 //获取歌曲url
-apiRoutes.post('/getPurlUrl', bodyParser.json(), function (req, res) {
+app.post('/api/getPurlUrl', bodyParser.json(), function (req, res) {
     const url = 'https://u.y.qq.com/cgi-bin/musicu.fcg'
     axios.post(url, req.body, {
         headers: {
@@ -50,7 +50,7 @@ apiRoutes.post('/getPurlUrl', bodyParser.json(), function (req, res) {
         console.log(e)
     })
 })
-apiRoutes.get('/lyric', function (req, res) {
+app.get('/api/lyric', function (req, res) {
     const url = 'https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg'
 
     axios.get(url, {
@@ -74,7 +74,7 @@ apiRoutes.get('/lyric', function (req, res) {
     })
 })
 //获取歌单的对应音乐
-apiRoutes.get('/getCdInfo', function (req, res) {
+app.get('/api/getCdInfo', function (req, res) {
     const url = 'https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg'
     axios.get(url, {
         headers: {
@@ -97,7 +97,7 @@ apiRoutes.get('/getCdInfo', function (req, res) {
     })
 })
 
-app.use('/api', apiRoutes);
+// app.use('/api', apiRoutes);
 
 
 app.get('/',function (req,res) {
