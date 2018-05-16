@@ -7,6 +7,7 @@ app.get('/',function (req,res) {
 
 var port = process.env.PORT || 5050;
 
+app.use(express.static('./static'))
 //app.listen(process.env.PORT || 5050)
 
 module.exports = app.listen(port,function (err) {
