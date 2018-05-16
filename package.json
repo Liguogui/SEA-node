@@ -8,6 +8,7 @@
     "email": "saemail@sina.cn"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.13.3"
   },
   "engines": {

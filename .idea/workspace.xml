@@ -3,30 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f20124a-ded5-42fa-bb14-19a5738ba314" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.4d43240d208881469ffc0249d64c1e57.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/0.a2691388707f7238df31.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/0.a2691388707f7238df31.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/1.2e0feba272db5984f94a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/1.2e0feba272db5984f94a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.ac9ad7ad3f998b7c4ed9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.ac9ad7ad3f998b7c4ed9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.2eaa1aaeed3b584ed42f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.2eaa1aaeed3b584ed42f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/4.e6196742af34dfbeaf44.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/4.e6196742af34dfbeaf44.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/5.f24bc704805f0a6e6fb1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/5.f24bc704805f0a6e6fb1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/6.e3fb495ffcbca403d600.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/6.e3fb495ffcbca403d600.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/7.cbf411788bb3ffcfd069.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/7.cbf411788bb3ffcfd069.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.17f4e148d2b4a25171ab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.17f4e148d2b4a25171ab.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.9a29538943d72bf6b6c5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.9a29538943d72bf6b6c5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.6a8923c78fa5e80e3cdf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.6a8923c78fa5e80e3cdf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +20,23 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+            <state relative-caret-position="1380">
+              <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+              <folding>
+                <element signature="e#793#1090#0" />
+                <element signature="e#1172#1506#0" />
+                <element signature="e#1552#2052#0" />
+                <element signature="e#2114#2619#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -78,6 +70,7 @@
         <option value="$PROJECT_DIR$/static/css/index2.css" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -178,6 +171,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -209,15 +203,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526466487334</updated>
-      <workItem from="1526466488790" duration="3459000" />
+      <workItem from="1526466488790" duration="4230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3459000" />
+    <option name="totallyTimeSpent" value="4230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -293,10 +288,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        <state relative-caret-position="1380">
+          <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+          <folding>
+            <element signature="e#793#1090#0" />
+            <element signature="e#1172#1506#0" />
+            <element signature="e#1552#2052#0" />
+            <element signature="e#2114#2619#0" />
+          </folding>
         </state>
       </provider>
     </entry>
