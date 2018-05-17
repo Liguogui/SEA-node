@@ -6,7 +6,7 @@ var app = express()
 
 // /static/css/index2.css
 app.get('/static/css/app.6b281e8efd648a8a36a494dd2f7ad4cd.css',function (req,res) {
-    res.sendFile(__dirname+'/static/css/app.1cfde8937d2164607a8298220f775d88.css')
+    res.sendFile(__dirname+'/static/css/app.6b281e8efd648a8a36a494dd2f7ad4cd.css')
 })
 //js
 app.get('/static/js/manifest.64073b0039aa1727411b.js',function (req,res) {
