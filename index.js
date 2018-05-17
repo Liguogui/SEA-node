@@ -9,14 +9,14 @@ app.get('/static/css/app.6b281e8efd648a8a36a494dd2f7ad4cd.css',function (req,res
     res.sendFile(__dirname+'/static/css/app.6b281e8efd648a8a36a494dd2f7ad4cd.css')
 })
 //js
-app.get('/static/js/manifest.ced9669eaa861e136e67.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/manifest.ced9669eaa861e136e67.js')
+app.get('/static/js/manifest.a33cca52507495becd86.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/manifest.a33cca52507495becd86.js')
 })
 app.get('/static/js/vendor.e754d3ca035decc066b1.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/vendor.e754d3ca035decc066b1.js')
 })
-app.get('/static/js/app.26c6630fa88c4c49ab10.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/app.26c6630fa88c4c49ab10.js')
+app.get('/static/js/app.c4c4197708b6854d81fc.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/app.c4c4197708b6854d81fc.js')
 })
 //api
 // var apiRoutes = express.Router()
