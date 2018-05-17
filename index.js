@@ -9,14 +9,14 @@ app.get('/static/css/app.6b281e8efd648a8a36a494dd2f7ad4cd.css',function (req,res
     res.sendFile(__dirname+'/static/css/app.6b281e8efd648a8a36a494dd2f7ad4cd.css')
 })
 //js
-app.get('/static/js/manifest.64073b0039aa1727411b.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/manifest.64073b0039aa1727411b.js')
+app.get('/static/js/manifest.ced9669eaa861e136e67.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/manifest.ced9669eaa861e136e67.js')
 })
-app.get('/static/js/vendor.ee6e96e428baacadb497.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/vendor.ee6e96e428baacadb497.js')
+app.get('/static/js/vendor.e754d3ca035decc066b1.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/vendor.e754d3ca035decc066b1.js')
 })
-app.get('/static/js/app.852d0d93daffe7ea79c1.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/app.852d0d93daffe7ea79c1.js')
+app.get('/static/js/app.26c6630fa88c4c49ab10.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/app.26c6630fa88c4c49ab10.js')
 })
 //api
 // var apiRoutes = express.Router()

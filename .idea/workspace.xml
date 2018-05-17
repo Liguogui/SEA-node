@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f20124a-ded5-42fa-bb14-19a5738ba314" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="4f20124a-ded5-42fa-bb14-19a5738ba314" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -77,10 +75,11 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-172" />
-    <option name="width" value="1239" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="283" />
+    <option name="y" value="29" />
+    <option name="width" value="1386" />
+    <option name="height" value="409" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -184,18 +183,17 @@
       <option name="presentableId" value="Default" />
       <updated>1526466487334</updated>
       <workItem from="1526466488790" duration="10738000" />
-      <workItem from="1526553297150" duration="823000" />
+      <workItem from="1526553297150" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11561000" />
+    <option name="totallyTimeSpent" value="12193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-172" y="0" width="1239" height="788" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21130952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21130952" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
