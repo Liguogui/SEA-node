@@ -5,18 +5,18 @@ var axios = require('axios');
 var app = express()
 
 // /static/css/index2.css
-app.get('/static/css/app.1cfde8937d2164607a8298220f775d88.css',function (req,res) {
+app.get('/static/css/app.6b281e8efd648a8a36a494dd2f7ad4cd.css',function (req,res) {
     res.sendFile(__dirname+'/static/css/app.1cfde8937d2164607a8298220f775d88.css')
 })
 //js
-app.get('/static/js/manifest.9e6db6b0a5f75c33c534.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/manifest.9e6db6b0a5f75c33c534.js')
+app.get('/static/js/manifest.64073b0039aa1727411b.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/manifest.64073b0039aa1727411b.js')
 })
-app.get('/static/js/vendor.e45463390e8519f52d89.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/vendor.e45463390e8519f52d89.js')
+app.get('/static/js/vendor.ee6e96e428baacadb497.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/vendor.ee6e96e428baacadb497.js')
 })
-app.get('/static/js/app.95b8645e425e8970c150.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/app.95b8645e425e8970c150.js')
+app.get('/static/js/app.852d0d93daffe7ea79c1.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/app.852d0d93daffe7ea79c1.js')
 })
 //api
 // var apiRoutes = express.Router()
