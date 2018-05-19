@@ -19,28 +19,28 @@ app.get('/static/js/app.496d6c330b60f512baaa.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/app.496d6c330b60f512baaa.js')
 })
 //按需加载组件
-app.get('/0.js',function (req,res) {
+app.get('/static/js/0.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/0.101373c8a5d52e3efa93.js')
 })
-app.get('/1.js',function (req,res) {
+app.get('/static/js/1.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/1.dcedba5cba93ed524144.js')
 })
-app.get('/2.js',function (req,res) {
+app.get('/static/js/2.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/2.86dd3e7947024164c9f5.js')
 })
-app.get('/3.js',function (req,res) {
+app.get('/static/js/3.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/3.69d49ed5571e963ac04f.js')
 })
-app.get('/4.js',function (req,res) {
+app.get('/static/js/4.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/4.19ea915852059eb8834f.js')
 })
-app.get('/5.js',function (req,res) {
+app.get('/static/js/5.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/5.5a94345050e98c4c1f4f.js')
 })
-app.get('/6.js',function (req,res) {
+app.get('/static/js/6.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/6.2e813f2fe63cd7028126.js')
 })
-app.get('/0.js',function (req,res) {
+app.get('/static/js/7.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/7.48394206e6412654facf.js')
 })
 //api
