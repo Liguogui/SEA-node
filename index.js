@@ -9,8 +9,8 @@ app.get('/static/css/app.9c7becaa3c99a4871d2abfedac5f5f3e.css',function (req,res
     res.sendFile(__dirname+'/static/css/app.9c7becaa3c99a4871d2abfedac5f5f3e.css')
 })
 //js
-app.get('/static/js/manifest.849065adc11d570d2c75.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/manifest.849065adc11d570d2c75.js')
+app.get('/static/js/manifest.041583f3faaf87224c26.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/manifest.041583f3faaf87224c26.js')
 })
 app.get('/static/js/vendor.962ccc248fa9f8b5e3a8.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/vendor.962ccc248fa9f8b5e3a8.js')
@@ -25,17 +25,17 @@ app.get('/static/js/0.101373c8a5d52e3efa93.js',function (req,res) {
 app.get('/static/js/1.dcedba5cba93ed524144.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/1.dcedba5cba93ed524144.js')
 })
-app.get('/static/js/2.86dd3e7947024164c9f5.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/2.86dd3e7947024164c9f5.js')
+app.get('/static/js/2.19f300aecf99df5a70a0.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/2.19f300aecf99df5a70a0.js')
 })
-app.get('/static/js/3.69d49ed5571e963ac04f.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/3.69d49ed5571e963ac04f.js')
+app.get('/static/js/3.b14f9957f765411486a6.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/3.b14f9957f765411486a6.js')
 })
-app.get('/static/js/4.19ea915852059eb8834f.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/4.19ea915852059eb8834f.js')
+app.get('/static/js/4.a82fa5cffa93f0af4c51.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/4.a82fa5cffa93f0af4c51.js')
 })
-app.get('/static/js/5.5a94345050e98c4c1f4f.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/5.5a94345050e98c4c1f4f.js')
+app.get('/static/js/5.e2076557e6b2a49dc05a.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/5.e2076557e6b2a49dc05a.js')
 })
 app.get('/static/js/6.2e813f2fe63cd7028126.js',function (req,res) {
     res.sendFile(__dirname+'/static/js/6.2e813f2fe63cd7028126.js')
