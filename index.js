@@ -5,43 +5,43 @@ var axios = require('axios');
 var app = express()
 
 // /static/css/index2.css
-app.get('/static/css/app.9c7becaa3c99a4871d2abfedac5f5f3e.css',function (req,res) {
-    res.sendFile(__dirname+'/static/css/app.9c7becaa3c99a4871d2abfedac5f5f3e.css')
+app.get('/static/css/app.19d686aad561cd2d4a59a56a42cd8a43.css',function (req,res) {
+    res.sendFile(__dirname+'/static/css/app.19d686aad561cd2d4a59a56a42cd8a43.css')
 })
 //js
-app.get('/static/js/manifest.041583f3faaf87224c26.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/manifest.041583f3faaf87224c26.js')
+app.get('/static/js/manifest.69d001965d4b5d49331b.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/manifest.69d001965d4b5d49331b.js')
 })
-app.get('/static/js/vendor.962ccc248fa9f8b5e3a8.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/vendor.962ccc248fa9f8b5e3a8.js')
+app.get('/static/js/vendor.1cef474373a6bc75e8b2.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/vendor.1cef474373a6bc75e8b2.js')
 })
-app.get('/static/js/app.496d6c330b60f512baaa.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/app.496d6c330b60f512baaa.js')
+app.get('/static/js/app.9b1c51a4c162941556d8.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/app.9b1c51a4c162941556d8.js')
 })
 //按需加载组件
-app.get('/static/js/0.101373c8a5d52e3efa93.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/0.101373c8a5d52e3efa93.js')
+app.get('/static/js/0.1a387e1e819727dd362d.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/0.1a387e1e819727dd362d.js')
 })
-app.get('/static/js/1.dcedba5cba93ed524144.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/1.dcedba5cba93ed524144.js')
+app.get('/static/js/1.65f5878dd3256a05d4e3.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/1.65f5878dd3256a05d4e3.js')
 })
-app.get('/static/js/2.19f300aecf99df5a70a0.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/2.19f300aecf99df5a70a0.js')
+app.get('/static/js/2.02291adccc4abd7a4f8c.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/2.02291adccc4abd7a4f8c.js')
 })
-app.get('/static/js/3.b14f9957f765411486a6.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/3.b14f9957f765411486a6.js')
+app.get('/static/js/3.8e09d86bfabf7efb3389.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/3.8e09d86bfabf7efb3389.js')
 })
-app.get('/static/js/4.a82fa5cffa93f0af4c51.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/4.a82fa5cffa93f0af4c51.js')
+app.get('/static/js/4.0b7f26631c5309652bbd.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/4.0b7f26631c5309652bbd.js')
 })
-app.get('/static/js/5.e2076557e6b2a49dc05a.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/5.e2076557e6b2a49dc05a.js')
+app.get('/static/js/5.defaf4012c2f756a6535.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/5.defaf4012c2f756a6535.js')
 })
-app.get('/static/js/6.2e813f2fe63cd7028126.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/6.2e813f2fe63cd7028126.js')
+app.get('/static/js/6.e1598c420a8c61ac0a87.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/6.e1598c420a8c61ac0a87.js')
 })
-app.get('/static/js/7.48394206e6412654facf.js',function (req,res) {
-    res.sendFile(__dirname+'/static/js/7.48394206e6412654facf.js')
+app.get('/static/js/7.962c2ddf967a50636ce3.js',function (req,res) {
+    res.sendFile(__dirname+'/static/js/7.962c2ddf967a50636ce3.js')
 })
 //api
 // var apiRoutes = express.Router()
